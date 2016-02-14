@@ -1,6 +1,6 @@
 {
   "name": "node-windows2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fork of Corey Butler's node-windows v.0.1.11 with several fixes (Support for Windows services, event logging, UAC, and several helper methods for interacting with the OS).",
   "keywords": [
     "ngn",
