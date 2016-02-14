@@ -1,6 +1,27 @@
+# Fork of Corey Butler's node-windows v.0.1.11 with several fixes
+
+
+# This fork contains following fixes:
+
+## fix for following error on Windows 2008 during uninstall: 
+             
+```
+Error: EPERM: operation not permitted, unlink '<cwd>/daemon/<service-name>.exe'
+```
+
+## `alreadyuninstalled` event
+
+Based on [PR113](https://github.com/coreybutler/node-windows/pull/113)  
+
+
+Original README.md follows:
+
+---
+
 # Update (5/21/15)
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/coreybutler/node-windows?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 The number of issues between this project and it's sister projects ([node-mac](https://github.com/coreybutler/node-mac) & [node-linux](https://github.com/coreybutler/node-linux)) are accruing at a rate that deserves more attention than I can provide on my own. I'm actively looking for maintainers to help run this project. Please get in touch via gitter if you're interested.
 
