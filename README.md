@@ -14,6 +14,13 @@ Error: EPERM: operation not permitted, unlink '<cwd>/daemon/<service-name>.exe'
 Based on [PR113](https://github.com/coreybutler/node-windows/pull/113)  
 
 
+
+---
+
+Original package:
+NPM page: https://www.npmjs.com/package/node-windows
+Github: https://github.com/coreybutler/node-windows
+
 Original README.md follows:
 
 ---
